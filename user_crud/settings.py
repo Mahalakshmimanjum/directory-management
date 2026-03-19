@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-2-7hc@1y3qzq)*olv6so6b#tx__#ld4yq&fn_=k*_9-dxw*khu
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['*']
 # ===== CORS SETTINGS (REQUIRED FOR FLUTTER WEB) =====
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_HEADERS = ['*']
